@@ -1074,3 +1074,25 @@ a.footer-promo:hover {
     padding-left: 30px;
     border-left: 1px solid #ddd;
 }
+
+.qodef-shortcode.treatment-list h5.qodef-e-title {
+    font-size: 22px;
+}
+
+.qodef-shortcode.treatment-list span.qodef-e-price .qodef-e-price-value {
+    font-size: 22px;
+}
+
+.qodef-shortcode.qodef-m.treatment-list {
+    margin: 10px 0 30px;
+    padding-left: 30px;
+}
+
+.working-hours p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: -7px;
+    color: #111;
+}
