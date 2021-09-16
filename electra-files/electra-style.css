@@ -1042,6 +1042,54 @@ a.footer-promo:hover {
 		top: 0;
 		right: -10px;
 	}
+	.qodef-shortcode.qodef-m.treatment-list {
+		margin: 0 0 30px !important;
+		padding: 0 !important;
+	}
+	#qodef-page-footer-bottom-area .textwidget {
+		display: block;
+		text-align: center;
+	}
+
+	#qodef-page-footer-bottom-area .textwidget img {
+		margin: 0 auto;
+	}
+	.dr-sec {
+		display: block !important;
+	}
+
+	.dr-sec > div:last-child {
+		margin-left: 0 !important;
+	}
+	.qodef-mobile-header-navigation>ul>li>a .qodef-menu-item-text:before,
+	.qodef-mobile-header-navigation ul li ul li>a .qodef-menu-item-text:before {
+		display: none !important;
+	}
+	.woocommerce-page .qodef-grid>.qodef-grid-inner {
+		margin: 0 5px;
+	}
+	.qodef-mobile-header-navigation ul li a,
+	.qodef-mobile-header-navigation ul li ul li>a .qodef-menu-item-text{
+		color: #111;
+	}
+
+	.qodef-mobile-header-navigation ul li a:hover,
+	.qodef-mobile-header-navigation ul li ul li>a .qodef-menu-item-text:hover{
+		color: #8ca687;
+	}
+	.dr-sec div {
+		width: 100% !important;
+	}
+	.woocommerce-page footer .qodef-grid>.qodef-grid-inner {
+		margin: 0 -15px !important;
+	}
+	.qodef-pricing-list .qodef-e-title {
+		font-size: 20px;
+	}
+
+	.qodef-pricing-list .qodef-e-price-value {
+		font-size: 16px !important;
+	}
 }
 @media only screen and (max-width: 480px) {
     section.qodef-elementor-content-grid > .elementor-container {
@@ -1061,26 +1109,30 @@ a.footer-promo:hover {
 .dr-sec {
     display: flex;
 	border-top: 1px solid #ddd;
+	align-items: center;
 }
 
-.dr-sec span {
-    -ms-flex: 1;  /* IE 10 */
-    flex: 1;
+.dr-sec div {
+   -ms-flex: 1;  /* IE 10 */
+   flex: 1;
 	padding-top: 20px;
 }
 
-.dr-sec > span:last-child {
+.dr-sec div.dr-img img {
+    width: 100%;
+}
+
+.dr-sec > div:last-child {
     margin-left: 30px;
-    padding-left: 30px;
-    border-left: 1px solid #ddd;
 }
 
 .qodef-shortcode.treatment-list h5.qodef-e-title {
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .qodef-shortcode.treatment-list span.qodef-e-price .qodef-e-price-value {
-    font-size: 22px;
+    font-size: 16px !important;
+	color: #111;
 }
 
 .qodef-shortcode.qodef-m.treatment-list {
@@ -1095,4 +1147,42 @@ a.footer-promo:hover {
     text-align: left;
     margin-bottom: -7px;
     color: #111;
+}
+
+.qodef-shortcode.qodef-m.treatment-list * {
+    font-family: 'Roboto';
+}
+
+.qodef-shortcode.qodef-m.treatment-list .qodef-m-item.qodef-e {
+    margin-bottom: 5px;
+}
+
+#qodef-page-footer .widget ul:not(.qodef-shortcode-list) li:before {
+    position: absolute;
+    content: "";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    left: 0;
+    color: #8ca687;
+}
+
+#qodef-page-footer .widget ul:not(.qodef-shortcode-list) li.address-icon:before {
+    content: "\f2b9";
+}
+
+#qodef-page-footer .widget ul:not(.qodef-shortcode-list) li.phone-icon:before {
+    content: "\f879";
+}
+
+#qodef-page-footer .widget ul:not(.qodef-shortcode-list) li.mail-icon:before {
+    content: "\f0e0";
+}
+
+#qodef-page-footer .widget ul:not(.qodef-shortcode-list) li.hours-icon:before {
+    content: "\f017";
+}
+
+.qodef-pricing-list .qodef-e-price-value {
+    font-family: 'Roboto';
+    font-size: 22px !important;
 }
