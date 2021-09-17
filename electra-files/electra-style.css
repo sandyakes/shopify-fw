@@ -978,6 +978,12 @@ a.footer-promo:hover {
 	}
 }
 
+@media only screen and (max-width: 1024px) { 
+	.qodef-header-navigation>ul>li.book-now-modal-mobile {
+		display: block;
+	}
+}
+
 @media only screen and (max-width: 767px) {
 	.qodef-banner .qodef-m-content {
 		position: relative !important;
@@ -1090,6 +1096,9 @@ a.footer-promo:hover {
 	.qodef-pricing-list .qodef-e-price-value {
 		font-size: 16px !important;
 	}
+	.gform_wrapper form .gfield_checkbox li {
+		width: 100% !important;
+	}
 }
 @media only screen and (max-width: 480px) {
     section.qodef-elementor-content-grid > .elementor-container {
@@ -1185,4 +1194,24 @@ a.footer-promo:hover {
 .qodef-pricing-list .qodef-e-price-value {
     font-family: 'Roboto';
     font-size: 22px !important;
+}
+
+.qodef-header-navigation>ul>li.book-now-modal-mobile {
+    display: none;
+}
+
+.qodef-mobile-header-navigation .book-now-modal-mobile {
+    margin-top: 30px;
+    display: block;
+}
+
+.qodef-mobile-header-navigation .book-now-modal-mobile a span {
+    background: #8ca687;
+    color: #fff;
+    padding: 10px 15px;
+    transition: all 300ms linear;
+}
+
+.qodef-mobile-header-navigation .book-now-modal-mobile a:hover span {
+    background: #56754f;
 }
