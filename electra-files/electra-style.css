@@ -1196,7 +1196,7 @@ a.footer-promo:hover {
     font-size: 22px !important;
 }
 
-#qodef-page-footer-bottom-area .textwidget p {
+#qodef-page-footer-bottom-area .textwidget p a {
 	font-family: 'Roboto';
 }
 
@@ -1218,6 +1218,10 @@ a.footer-promo:hover {
 
 .qodef-mobile-header-navigation .book-now-modal-mobile a:hover span {
     background: #56754f;
+}
+
+#qodef-page-footer-bottom-area .textwidget p a {
+	color: #56754f;
 }
 
 /* From Custom CSS */
@@ -1407,4 +1411,60 @@ a.footer-promo:hover {
         width: 100% !important;
 			padding: 20px !important;
     }
+}
+
+.akeans-pricing-wrapper.qodef-pricing-list.akes-list-title .qodef-e-heading {
+    display: inline-block;
+    width: 100%;
+}
+
+.akeans-pricing-wrapper.qodef-pricing-list.akes-list-title .qodef-e-heading * {
+    display: inline-block;
+    width: auto;
+}
+
+.akes-list-title span.qodef-e-price.akeans-price1 {
+    float: right;
+}
+
+.akes-list-title span.qodef-e-price.akeans-price2, .akes-list-title span.qodef-e-price.akeans-price1 {
+    float: right;
+    width: 100px !important;
+    text-align: left;
+}
+
+.akeans-pricing-wrapper.qodef-pricing-list.akes-list-title .qodef-e-heading  span.qodef-e-line {
+    width: 0;
+	display: none;
+}
+
+.akes-list-title span.qodef-e-price.akeans-price1 + span.qodef-e-line {
+    display: none;
+}
+
+.akeans-pricing-wrapper.qodef-pricing-list.akes-list-title .qodef-e-heading span.qodef-e-line {
+    display: none;
+}
+
+.akeans-pricing-wrapper.qodef-pricing-list.akes-list-title.list-pricing .qodef-e-heading:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #d1d1d1;
+    top: 50%;
+    z-index: -1;
+}
+
+.akeans-pricing-wrapper.qodef-pricing-list.akes-list-title .qodef-e-heading * {
+    background: #fff;
+}
+
+.akeans-pricing-wrapper.qodef-pricing-list.akes-list-title .qodef-e-heading h5.qodef-e-title {
+    padding-right: 10px;
+}
+
+.akes-list-title span.qodef-e-price.akeans-price2 {
+    padding-left: 20px;
 }
